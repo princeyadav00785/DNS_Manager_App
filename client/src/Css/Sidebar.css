@@ -1,0 +1,39 @@
+
+.sidebar {
+    width: 200px;
+    background-color: #34495e;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar-section {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold; 
+  }
+  
+  .sidebar-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-section li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-section a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .sidebar-section a:hover {
+    text-decoration: underline;
+  }
+  

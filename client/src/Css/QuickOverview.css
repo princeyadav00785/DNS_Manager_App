@@ -1,0 +1,37 @@
+
+.quick-overview {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .overview-section {
+    flex: 1;
+    background-color: #08252c;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .overview-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold; 
+  }
+  
+  .overview-section p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .overview-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .overview-section li {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  

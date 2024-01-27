@@ -1,17 +1,31 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import "../Css/Sidebar.css"; // Import your sidebar styles here
 
 const Sidebar = () => {
   return (
     <aside className="sidebar">
-      <nav>
+      <div className="sidebar-section">
+        <h3>Main Navigation</h3>
         <ul>
           <li>
-            <Link to="/dashboard">Dashboard</Link>
+            <a href="/dashboard">Dashboard</a>
           </li>
-          {/* Add more links for other sections as needed */}
+          <li>
+            <a href="/domains">Domains</a>
+          </li>
         </ul>
-      </nav>
+      </div>
+      <div className="sidebar-section">
+        <h3>Settings</h3>
+        <ul>
+          <li>
+            <a href="/profile">Profile</a>
+          </li>
+          <li>
+            <a href="/account">Account</a>
+          </li>
+        </ul>
+      </div>
     </aside>
   );
 };
