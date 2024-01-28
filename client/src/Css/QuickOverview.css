@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-/* QuickOverview.css */
-=======
->>>>>>> origin/master
 
 .quick-overview {
     display: flex;
@@ -10,11 +6,8 @@
   
   .overview-section {
     flex: 1;
-<<<<<<< HEAD
     background-color: #ecf0f1;
-=======
-    background-color: #08252c;
->>>>>>> origin/master
+
     padding: 20px;
     margin-right: 20px;
     border-radius: 8px;
@@ -24,11 +17,8 @@
   .overview-section h3 {
     font-size: 16px;
     margin-bottom: 10px;
-<<<<<<< HEAD
     font-weight: bold; /* Added bold style */
-=======
-    font-weight: bold; 
->>>>>>> origin/master
+
   }
   
   .overview-section p {

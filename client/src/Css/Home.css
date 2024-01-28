@@ -1,12 +1,8 @@
-<<<<<<< HEAD
-/* Home.css */
-=======
->>>>>>> origin/master
+
 
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
-<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -14,22 +10,15 @@ body {
 
 nav {
   position: fixed;
-=======
-}
 
-nav {
->>>>>>> origin/master
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #3498db;
   padding: 10px 20px;
-<<<<<<< HEAD
   width: 100%;
   top: 0;
   z-index: 1000;
-=======
->>>>>>> origin/master
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -43,11 +32,8 @@ button {
   background-color: #e74c3c;
   color: white;
   padding: 8px 16px;
-<<<<<<< HEAD
   margin-left: 10px;
-=======
-  margin-left: 10px; /* Added margin for spacing between buttons */
->>>>>>> origin/master
+
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -59,7 +45,7 @@ button:hover {
 
 .dashboard-container {
   display: flex;
-<<<<<<< HEAD
+
   flex-direction: column; /* Stack elements in a column on smaller screens */
   max-width: 100%; /* Set maximum width to 100% */
   margin: 0 auto; /* Center the container horizontally */
@@ -128,24 +114,12 @@ button:hover {
   box-sizing: border-box;
 }
 
-=======
-  height: calc(100vh - 40px); /* Adjusted for top navigation height */
-}
 
-.main-content {
-  flex: 1;
-  padding: 20px;
-  background-color: #ecf0f1;
-  overflow-y: auto;
-}
-
-/* Footer styling */
->>>>>>> origin/master
 .footer {
   text-align: center;
   background-color: #2c3e50;
   color: white;
-<<<<<<< HEAD
+
   padding: 20px;
   box-sizing: border-box;
 }
@@ -154,10 +128,5 @@ button:hover {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-=======
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
->>>>>>> origin/master
+
 }

@@ -1,28 +1,27 @@
-
-
 .dns-records-table {
-  background-color: #ecf0f1;
+  background-color: #f8f9fa;
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
 }
 
 .dns-records-table h3 {
-  font-size: 16px;
-  margin-bottom: 10px;
+  font-size: 18px;
+  margin-bottom: 15px;
   font-weight: bold;
+  color: #3498db;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 th, td {
-  border: 1px solid #bdc3c7;
-  padding: 8px;
+  border: 1px solid #ced4da;
+  padding: 12px;
   text-align: left;
 }
 
@@ -32,5 +31,58 @@ th {
 }
 
 tbody tr:hover {
-  background-color: #f2f2f2;
+  background-color: #e2e6ea;
+  transition: background-color 0.3s ease;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.page-control {
+  display: flex;
+  align-items: center;
+}
+
+.page-number {
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.search-input {
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.search-button {
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
 }

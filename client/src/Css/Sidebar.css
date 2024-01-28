@@ -5,10 +5,6 @@
     color: white;
     padding: 20px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
   }
   
   .sidebar-section {
@@ -18,11 +14,8 @@
   .sidebar-section h3 {
     font-size: 16px;
     margin-bottom: 10px;
-<<<<<<< HEAD
-    font-weight: bold; /* Added bold style */
-=======
     font-weight: bold; 
->>>>>>> origin/master
+
   }
   
   .sidebar-section ul {
