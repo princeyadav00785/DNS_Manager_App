@@ -1,11 +1,22 @@
+<<<<<<< HEAD
 
 /* body {
+=======
+/* auth.css */
+
+body {
+>>>>>>> origin/master
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   height: 100vh;
+<<<<<<< HEAD
   overflow: auto;
 } */
+=======
+  overflow: hidden;
+}
+>>>>>>> origin/master
 
 .Top {
   display: flex;
@@ -30,7 +41,11 @@ main {
   justify-content: center;
   align-items: center;
   height: 100vh;
+<<<<<<< HEAD
   background: linear-gradient(to right, #3498db, #2980b9); 
+=======
+  background: linear-gradient(to right, #3498db, #2980b9); /* Updated Blue Gradient */
+>>>>>>> origin/master
 }
 
 section {

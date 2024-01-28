@@ -14,10 +14,17 @@ function App() {
     <Router>
       <div>
         <Routes>
+<<<<<<< HEAD
           {/* <Route
             path="/"
             element={isLoggedIn ? <Home /> : <Navigate to="/login" />}
           /> */}
+=======
+          <Route
+            path="/"
+            element={isLoggedIn ? <Home /> : <Navigate to="/login" />}
+          />
+>>>>>>> origin/master
           <Route
             path="/home"
             element={isLoggedIn ? <Home /> : <Navigate to="/login" />}

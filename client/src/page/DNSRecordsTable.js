@@ -1,13 +1,21 @@
+<<<<<<< HEAD
 // DNSRecordsTable.js
 
 import React from "react";
 import "../Css/DNSRecordsTable.css"; // Import your DNSRecordsTable styles here
+=======
+import React from "react";
+import "../Css/DNSRecordsTable.css";
+>>>>>>> origin/master
 
 const DNSRecordsTable = () => {
   const dnsRecords = [
     { domain: "example.com", type: "A", value: "192.168.1.1" },
     { domain: "mail.example.com", type: "MX", value: "mail.server.com" },
+<<<<<<< HEAD
     // Add more DNS records as needed
+=======
+>>>>>>> origin/master
   ];
 
   return (

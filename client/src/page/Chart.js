@@ -1,3 +1,4 @@
+
 import React from "react";
 import Chart from "react-apexcharts";
 import "../Css/Chart.css";
@@ -91,8 +92,12 @@ const MyChart = () => {
         <h2>Candlestick Chart</h2>
         <Chart options={candlestickChartData.options} series={candlestickChartData.series} type="candlestick" height={350} />
       </div>
+
+
+ 
     </div>
   );
 };
 
 export default MyChart;
+
